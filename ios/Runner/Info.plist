@@ -26,6 +26,16 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>Aplikasi membutuhkan akses kamera untuk mengambil foto absensi.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Aplikasi membutuhkan akses lokasi untuk fitur absensi dan peta.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Aplikasi membutuhkan akses lokasi untuk fitur absensi dan peta.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Aplikasi membutuhkan akses mikrofon untuk fitur kamera.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Aplikasi membutuhkan akses foto untuk menyimpan hasil foto absensi.</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
@@ -45,23 +55,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	
-	<!-- Camera Permission -->
-	<key>NSCameraUsageDescription</key>
-	<string>Aplikasi membutuhkan akses kamera untuk mengambil foto absensi.</string>
-
-	<!-- Photo Library Permission -->
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Aplikasi membutuhkan akses foto untuk menyimpan hasil foto absensi.</string>
-
-	<!-- Microphone Permission (sometimes needed for camera) -->
-	<key>NSMicrophoneUsageDescription</key>
-	<string>Aplikasi membutuhkan akses mikrofon untuk fitur kamera.</string>
-
-	<!-- Location Permission -->
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Aplikasi membutuhkan akses lokasi untuk fitur absensi dan peta.</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Aplikasi membutuhkan akses lokasi untuk fitur absensi dan peta.</string>
 </dict>
 </plist>
